@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  /* TODO */
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+ /* TODO */
+ position: relative;
+ padding-top: 200px;
+}
+
+.search-container input {
+ /* TODO */
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+ 
+}
+.search-container .suggestions {
+   /* TODO */
+   position: absolute;
+   width: 300px;
+   margin: 0;
+   padding:0;
+   /* border: 1px solid #52a94d; */
+   display: contents;
+}
+
+ul {
+  /* TODO */
+  position: relative;
+  display: inline;
+  background-color: lightgray;
+}
+
+ul li {
+  /* TODO */
+  padding: 10px;
+  cursor: pointer;
+  list-style-type: none;
+  background-color: lightgray;
+  /* border: 1px green; */
+}
+ul li:hover {
+  /* TODO */
+  background-color: rgb(108, 211, 108);
+}
